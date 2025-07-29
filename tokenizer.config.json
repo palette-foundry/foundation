@@ -1,4 +1,5 @@
 {
+    "$id": "node_modules/@palette-foundry/tokenizer/dist/cjs/tokenizer.config.schema.json",
     "outputDir": "src/tokens",
     "tokens": {
         "palette": {
