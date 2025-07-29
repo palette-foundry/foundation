@@ -1,5 +1,5 @@
 {
-  "name": "YOUR_PROJECT_NAME",
+  "name": "@palette-foundry/foundation",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -22,5 +22,8 @@
     "prettier": "^3.6.2",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0"
+  },
+  "dependencies": {
+    "@palette-foundry/tokenizer": "^1.0.1"
   }
 }

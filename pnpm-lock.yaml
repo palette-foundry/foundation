@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@palette-foundry/tokenizer':
+        specifier: ^1.0.1
+        version: 1.0.1
     devDependencies:
       '@eslint/js':
         specifier: ^9.32.0
@@ -113,6 +117,10 @@ packages:
   '@nodelib/fs.walk@1.2.8':
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
+
+  '@palette-foundry/tokenizer@1.0.1':
+    resolution: {integrity: sha512-13dj8VFihukYj/HlTHzfALEedr6Bm699WdhRAH4rYXV8gFLNSeA1yVxJUjbzadO7CAhFASOQ068bn4N1rw03rA==}
+    hasBin: true
 
   '@pkgr/core@0.2.9':
     resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
@@ -825,6 +833,8 @@ snapshots:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
+
+  '@palette-foundry/tokenizer@1.0.1': {}
 
   '@pkgr/core@0.2.9': {}
 
